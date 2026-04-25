@@ -1,0 +1,98 @@
+{
+  "device": "cuda",
+  "threshold": 0.5995045304298401,
+  "normal_mean_err": 0.3975907862186432,
+  "normal_std_err": 0.0673045814037323,
+  "normal_mean": 0.3975907862186432,
+  "normal_std": 0.0673045814037323,
+  "scaler_mean": 0.01253101509064436,
+  "scaler_std": 0.06615400314331055,
+  "segment_length": 1024,
+  "latent_dim": 16,
+  "voting_threshold": 0.5,
+  "roc_auc": 1.0,
+  "roc_auc_std": 0.0,
+  "f1_score": 1.0,
+  "f1_std": 0.0,
+  "sensitivity": 1.0,
+  "sensitivity_std": 0.0,
+  "specificity": 1.0,
+  "specificity_std": 0.0,
+  "false_alarm_rate": 0.0,
+  "fpr_std": 0.0,
+  "avg_precision": 1.0,
+  "severity_table": {
+    "0.007": {
+      "inner_fault": 100.0,
+      "ball_fault": 100.0,
+      "outer_fault": 100.0
+    },
+    "0.014": {
+      "inner_fault": 100.0,
+      "ball_fault": 100.0,
+      "outer_fault": 100.0
+    },
+    "0.021": {
+      "inner_fault": 100.0,
+      "ball_fault": NaN,
+      "outer_fault": 100.0
+    },
+    "0.028": {
+      "inner_fault": 100.0,
+      "ball_fault": NaN,
+      "outer_fault": 100.0
+    }
+  },
+  "baseline_table": {
+    "OC-SVM": {
+      "roc_auc": 1.0,
+      "roc_auc_std": 0.0,
+      "f1": 1.0,
+      "f1_std": 0.0,
+      "sens": 1.0,
+      "spec": 1.0,
+      "fpr": 0.0
+    },
+    "Isolation Forest": {
+      "roc_auc": 0.6568627450980392,
+      "roc_auc_std": 0.02272945709680322,
+      "f1": 0.0,
+      "f1_std": 0.0,
+      "sens": 0.0,
+      "spec": 0.75,
+      "fpr": 0.25
+    },
+    "VAE": {
+      "roc_auc": 1.0,
+      "roc_auc_std": 0.0,
+      "f1": 1.0,
+      "f1_std": 0.0,
+      "sens": 1.0,
+      "spec": 1.0,
+      "fpr": 0.0
+    },
+    "LSTM-AE": {
+      "roc_auc": 1.0,
+      "roc_auc_std": 0.0,
+      "f1": 1.0,
+      "f1_std": 0.0,
+      "sens": 1.0,
+      "spec": 1.0,
+      "fpr": 0.0
+    },
+    "Proposed AE": {
+      "roc_auc": 1.0,
+      "roc_auc_std": 0.0,
+      "f1": 1.0,
+      "f1_std": 0.0,
+      "sens": 1.0,
+      "spec": 1.0,
+      "fpr": 0.0
+    }
+  },
+  "detection_rates": {
+    "inner_fault": 100.0,
+    "ball_fault": NaN,
+    "outer_fault": 100.0
+  }
+}
